@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expert Edge - Fueling Growth in Sports & Clubs</title>
+    <!-- Tailwind CSS CDN for modern, utility-first styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font for a clean, professional look */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light background for contrast */
+            color: #333; /* Default text color */
+            line-height: 1.6; /* Improved readability */
+        }
+        /* Custom styles for elements not easily covered by Tailwind */
+        .gradient-bg {
+            background: linear-gradient(to right, #4285f4, #669df6); /* Blue gradient for hero */
+        }
+        .text-shadow-sm {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle text shadow for headings */
+        }
+        .btn-primary {
+            background-color: #4285f4; /* Google Blue */
+            color: white;
+            padding: 0.75rem 2rem;
+            border-radius: 0.75rem; /* Rounded corners */
+            font-weight: 600;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary:hover {
+            background-color: #3367d6; /* Darker blue on hover */
+            transform: translateY(-2px); /* Lift effect */
+        }
+        .icon-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 64px;
+            height: 64px;
+            background-color: #e0e7ff; /* Light blue background for icons */
+            border-radius: 50%; /* Circular shape */
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section: Welcomes users and introduces Expert Edge -->
+    <header class="gradient-bg text-white py-16 px-4 md:px-8 lg:px-16 text-center rounded-b-3xl shadow-lg">
+        <div class="max-w-4xl mx-auto">
+            <!-- Main Logo -->
+            <img src="expertedge.png" alt="Expert Edge Logo" class="mx-auto mb-6 w-48 h-auto rounded-lg shadow-md">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-4 text-shadow-sm">
+                Welcome to Expert Edge
+            </h1>
+            <p class="text-xl md:text-2xl font-light mb-8">
+                The revolutionary platform that fuels the growth of students, athletes, players, and your entire club.
+            </p>
+            <p class="text-lg md:text-xl mb-10">
+                Streamline operations, enhance performance, and build a stronger community with our intuitive tools.
+            </p>
+            <a href="#features" class="btn-primary inline-flex items-center space-x-2">
+                <span>Discover How We Empower You</span>
+                <!-- Simple SVG arrow icon -->
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- Features Section: Details the core functionalities of Expert Edge -->
+    <section id="features" class="py-16 px-4 md:px-8 lg:px-16 bg-white rounded-xl shadow-md mx-auto max-w-6xl mt-8">
+        <h2 class="text-4xl font-bold text-center mb-12 text-gray-800">
+            Unleash Your Potential with Expert Edge
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <!-- Feature 1: Seamless Scheduling -->
+            <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="icon-container">
+                    <!-- Calendar icon (using inline SVG for simplicity) -->
+                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Effortless Club Management</h3>
+                <p class="text-gray-700">
+                    Say goodbye to chaotic schedules and missed appointments. Expert Edge makes managing club schedules, team rosters, and facility bookings a breeze. Our intuitive interface ensures everyone is on the same page, all the time.
+                </p>
+            </div>
+
+            <!-- Feature 2: Optimized Training Sessions -->
+            <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="icon-container">
+                    <!-- Dumbbell icon (using inline SVG for simplicity) -->
+                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 14v6m-3-3h6M6 10h2m-2 0h-2m2 0a1 1 0 100 2 1 1 0 000-2zm-2 0a1 1 0 100 2 1 1 0 000-2zm10-8a2 2 0 012 2v6a2 2 0 01-2 2h-2a2 2 0 01-2-2v-6a2 2 0 012-2h2zM3 16s.614-.803 1.5-1.5c1.474-1.196 2.892-2.38 4.5-3.5"></path></svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Dynamic Training & Development</h3>
+                <p class="text-gray-700">
+                    Craft and track personalized training sessions with ease. From individual drills to team strategies, Expert Edge provides tools to monitor progress, assign tasks, and ensure every participant is on their optimal development path.
+                </p>
+            </div>
+
+            <!-- Feature 3: Performance Grading & Analytics -->
+            <div class="flex flex-col items-center text-center p-6 bg-gray-50 rounded-xl shadow-sm hover:shadow-lg transition-shadow duration-300">
+                <div class="icon-container">
+                    <!-- Chart icon (using inline SVG for simplicity) -->
+                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10a2 2 0 01-2 2h-2a2 2 0 01-2-2zm9 0V5a2 2 0 00-2-2h-2a2 2 0 00-2 2v14a2 2 0 002 2h2a2 2 0 002-2z"></path></svg>
+                </div>
+                <h3 class="text-2xl font-semibold mb-3 text-gray-800">Insightful Grading & Analytics</h3>
+                <p class="text-gray-700">
+                    Gain a clear understanding of individual and team performance. Our robust grading system and analytics provide actionable insights, helping coaches and mentors identify strengths, pinpoint areas for improvement, and celebrate achievements.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action / Contact Section -->
+    <section class="py-16 px-4 md:px-8 lg:px-16 bg-gray-800 text-white text-center rounded-t-3xl shadow-lg mt-8">
+        <h2 class="text-4xl font-bold mb-6">Ready to Transform Your Club?</h2>
+        <p class="text-xl mb-8 max-w-3xl mx-auto">
+            Expert Edge is more than just an app; it's your partner in fostering talent, enhancing organization, and building a thriving community. Join us in shaping the future of student and athlete development.
+        </p>
+        <p class="text-lg mb-4">
+            For inquiries, demonstrations, or to learn more about how Expert Edge can benefit your organization, please don out to our team:
+        </p>
+        <a href="mailto:smj1firm@gmail.com" class="text-2xl font-bold text-yellow-400 hover:text-yellow-300 transition-colors duration-300">
+            smj1firm@gmail.com
+        </a>
+        <!-- Small adaptive icon at the bottom -->
+        <img src="adaptive-icon.png" alt="Expert Edge Icon" class="mx-auto mt-8 w-24 h-auto rounded-full shadow-md">
+    </section>
+
+</body>
+</html>
